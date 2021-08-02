@@ -1,6 +1,6 @@
-<mxfile host="app.diagrams.net" modified="2021-08-02T08:38:45.302Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/92.0.4515.107 Safari/537.36 Edg/92.0.902.62" etag="uym2SrB677TpnqqyPktJ" version="14.9.3" type="github">
+<mxfile host="app.diagrams.net" modified="2021-08-02T08:56:36.740Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/92.0.4515.107 Safari/537.36 Edg/92.0.902.62" etag="X8je0WX0u32jqMslMAAN" version="14.9.3" type="github">
   <diagram id="NYKsRx9gthyVyD-9QHaV" name="Page-1">
-    <mxGraphModel dx="1422" dy="762" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="1673" dy="896" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -15,7 +15,7 @@
             <mxPoint x="640" y="340" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="SDYk8r2J29U1VIkxYxzF-4" value="获取用户服务情况" style="strokeWidth=2;html=1;shape=mxgraph.flowchart.process;whiteSpace=wrap;fillColor=#FFFFFF;fontSize=12;" parent="1" vertex="1">
+        <mxCell id="SDYk8r2J29U1VIkxYxzF-4" value="获取用户付费情况" style="strokeWidth=2;html=1;shape=mxgraph.flowchart.process;whiteSpace=wrap;fillColor=#FFFFFF;fontSize=12;" parent="1" vertex="1">
           <mxGeometry x="590" y="240" width="100" height="60" as="geometry" />
         </mxCell>
         <mxCell id="SDYk8r2J29U1VIkxYxzF-5" value="是" style="edgeStyle=orthogonalEdgeStyle;rounded=0;html=1;exitX=0.5;exitY=1;exitPerimeter=0;jettySize=auto;orthogonalLoop=1;strokeColor=#66B2FF;fontSize=12;entryX=0.5;entryY=0;entryPerimeter=0;" parent="1" source="SDYk8r2J29U1VIkxYxzF-7" target="SDYk8r2J29U1VIkxYxzF-10" edge="1">
@@ -30,20 +30,20 @@
         <mxCell id="SDYk8r2J29U1VIkxYxzF-7" value="&lt;span&gt;获取当前标签是否有进行中的计划&lt;/span&gt;" style="strokeWidth=2;html=1;shape=mxgraph.flowchart.decision;whiteSpace=wrap;fillColor=#FFFFFF;fontSize=12;" parent="1" vertex="1">
           <mxGeometry x="560" y="460" width="160" height="80" as="geometry" />
         </mxCell>
-        <mxCell id="SDYk8r2J29U1VIkxYxzF-8" value="是" style="edgeStyle=orthogonalEdgeStyle;rounded=0;html=1;exitX=0.5;exitY=1;exitPerimeter=0;jettySize=auto;orthogonalLoop=1;strokeColor=#66B2FF;fontSize=12;" parent="1" source="SDYk8r2J29U1VIkxYxzF-10" target="SDYk8r2J29U1VIkxYxzF-12" edge="1">
+        <mxCell id="lAQB0KgurK22yrWvHnAk-25" value="否" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;exitPerimeter=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="SDYk8r2J29U1VIkxYxzF-10" target="lAQB0KgurK22yrWvHnAk-18">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="SDYk8r2J29U1VIkxYxzF-9" value="否" style="edgeStyle=orthogonalEdgeStyle;rounded=0;html=1;exitX=1;exitY=0.5;exitPerimeter=0;entryX=0;entryY=0.5;entryPerimeter=0;jettySize=auto;orthogonalLoop=1;strokeColor=#66B2FF;fontSize=12;" parent="1" source="SDYk8r2J29U1VIkxYxzF-10" target="SDYk8r2J29U1VIkxYxzF-26" edge="1">
+        <mxCell id="lAQB0KgurK22yrWvHnAk-28" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;exitPerimeter=0;" edge="1" parent="1" source="SDYk8r2J29U1VIkxYxzF-10" target="lAQB0KgurK22yrWvHnAk-27">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="SDYk8r2J29U1VIkxYxzF-10" value="用户条件是是否符合计划中的条件&lt;br&gt;" style="strokeWidth=2;html=1;shape=mxgraph.flowchart.decision;whiteSpace=wrap;fillColor=#FFFFFF;fontSize=12;" parent="1" vertex="1">
+        <mxCell id="SDYk8r2J29U1VIkxYxzF-10" value="&lt;span&gt;当前时间是否存在多个计划&lt;/span&gt;" style="strokeWidth=2;html=1;shape=mxgraph.flowchart.decision;whiteSpace=wrap;fillColor=#FFFFFF;fontSize=12;" parent="1" vertex="1">
           <mxGeometry x="560" y="585" width="160" height="80" as="geometry" />
         </mxCell>
         <mxCell id="SDYk8r2J29U1VIkxYxzF-11" style="edgeStyle=orthogonalEdgeStyle;rounded=0;html=1;exitX=0.5;exitY=1;exitPerimeter=0;entryX=0;entryY=0.5;entryPerimeter=0;jettySize=auto;orthogonalLoop=1;strokeColor=#66B2FF;fontSize=12;" parent="1" source="SDYk8r2J29U1VIkxYxzF-12" target="SDYk8r2J29U1VIkxYxzF-23" edge="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="SDYk8r2J29U1VIkxYxzF-12" value="返回新人活动素材页地址" style="strokeWidth=2;html=1;shape=mxgraph.flowchart.process;whiteSpace=wrap;fillColor=#FFFFFF;fontSize=12;" parent="1" vertex="1">
-          <mxGeometry x="590" y="700" width="100" height="60" as="geometry" />
+          <mxGeometry x="793" y="1020" width="100" height="60" as="geometry" />
         </mxCell>
         <mxCell id="SDYk8r2J29U1VIkxYxzF-13" value="是" style="edgeStyle=orthogonalEdgeStyle;rounded=0;html=1;exitX=0.5;exitY=1;exitPerimeter=0;entryX=0;entryY=0.5;entryPerimeter=0;jettySize=auto;orthogonalLoop=1;strokeColor=#66B2FF;fontSize=12;fontColor=#000000;" parent="1" source="SDYk8r2J29U1VIkxYxzF-14" target="SDYk8r2J29U1VIkxYxzF-10" edge="1">
           <mxGeometry relative="1" as="geometry" />
@@ -76,22 +76,22 @@
           <mxGeometry x="410" y="130" width="100" height="60" as="geometry" />
         </mxCell>
         <mxCell id="SDYk8r2J29U1VIkxYxzF-23" value="展示活动UI" style="strokeWidth=2;html=1;shape=mxgraph.flowchart.terminator;whiteSpace=wrap;fillColor=#FFFFFF;fontSize=12;" parent="1" vertex="1">
-          <mxGeometry x="865" y="850" width="100" height="60" as="geometry" />
+          <mxGeometry x="865" y="1105" width="100" height="60" as="geometry" />
         </mxCell>
         <mxCell id="SDYk8r2J29U1VIkxYxzF-24" value="是" style="edgeStyle=orthogonalEdgeStyle;rounded=0;html=1;exitX=1;exitY=0.5;exitPerimeter=0;entryX=0.5;entryY=0;entryPerimeter=0;jettySize=auto;orthogonalLoop=1;strokeColor=#66B2FF;fontSize=12;" parent="1" source="SDYk8r2J29U1VIkxYxzF-26" target="SDYk8r2J29U1VIkxYxzF-28" edge="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="SDYk8r2J29U1VIkxYxzF-25" value="否" style="edgeStyle=orthogonalEdgeStyle;rounded=0;html=1;exitX=0.5;exitY=1;exitPerimeter=0;jettySize=auto;orthogonalLoop=1;strokeColor=#66B2FF;fontSize=12;" parent="1" source="SDYk8r2J29U1VIkxYxzF-26" target="SDYk8r2J29U1VIkxYxzF-27" edge="1">
+        <mxCell id="lAQB0KgurK22yrWvHnAk-32" value="否" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;exitPerimeter=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="SDYk8r2J29U1VIkxYxzF-26" target="SDYk8r2J29U1VIkxYxzF-27">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="SDYk8r2J29U1VIkxYxzF-26" value="判断用户今天是否签到&lt;br&gt;" style="strokeWidth=2;html=1;shape=mxgraph.flowchart.decision;whiteSpace=wrap;fillColor=#FFFFFF;fontSize=12;" parent="1" vertex="1">
           <mxGeometry x="960" y="580" width="160" height="90" as="geometry" />
         </mxCell>
         <mxCell id="SDYk8r2J29U1VIkxYxzF-27" value="展示签到UI" style="strokeWidth=2;html=1;shape=mxgraph.flowchart.terminator;whiteSpace=wrap;fillColor=#FFFFFF;fontSize=12;" parent="1" vertex="1">
-          <mxGeometry x="990" y="850" width="100" height="60" as="geometry" />
+          <mxGeometry x="990" y="1105" width="100" height="60" as="geometry" />
         </mxCell>
         <mxCell id="SDYk8r2J29U1VIkxYxzF-28" value="展示已签到UI" style="strokeWidth=2;html=1;shape=mxgraph.flowchart.terminator;whiteSpace=wrap;fillColor=#FFFFFF;fontSize=12;" parent="1" vertex="1">
-          <mxGeometry x="1100" y="850" width="100" height="60" as="geometry" />
+          <mxGeometry x="1100" y="1105" width="100" height="60" as="geometry" />
         </mxCell>
         <mxCell id="SDYk8r2J29U1VIkxYxzF-29" style="edgeStyle=orthogonalEdgeStyle;rounded=0;html=1;exitX=0.5;exitY=1;exitPerimeter=0;entryX=0.5;entryY=0;entryPerimeter=0;jettySize=auto;orthogonalLoop=1;strokeColor=#66B2FF;fontSize=12;" parent="1" source="SDYk8r2J29U1VIkxYxzF-31" edge="1">
           <mxGeometry relative="1" as="geometry">
@@ -156,7 +156,7 @@
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="SDYk8r2J29U1VIkxYxzF-48" value="&lt;font color=&quot;#000000&quot;&gt;用户点击时，上报用户点击记录。以便用户返回小程序后，能直接获取对应奖励。&lt;/font&gt;" style="shape=note;whiteSpace=wrap;html=1;strokeColor=#3399FF;fillColor=#FFFFFF;fontSize=12;fontColor=#00FFFF;" parent="1" vertex="1">
-          <mxGeometry x="420" y="680" width="110" height="140" as="geometry" />
+          <mxGeometry x="640" y="980" width="110" height="140" as="geometry" />
         </mxCell>
         <mxCell id="SDYk8r2J29U1VIkxYxzF-49" value="否" style="edgeStyle=orthogonalEdgeStyle;rounded=0;html=1;exitX=0.5;exitY=1;exitPerimeter=0;jettySize=auto;orthogonalLoop=1;strokeColor=#66B2FF;fontSize=12;fontColor=#000000;" parent="1" source="SDYk8r2J29U1VIkxYxzF-51" target="SDYk8r2J29U1VIkxYxzF-7" edge="1">
           <mxGeometry relative="1" as="geometry" />
@@ -167,10 +167,10 @@
         <mxCell id="SDYk8r2J29U1VIkxYxzF-51" value="&lt;span&gt;判断当前用户是否获取过新人奖励&lt;/span&gt;" style="strokeWidth=2;html=1;shape=mxgraph.flowchart.decision;whiteSpace=wrap;fillColor=#FFFFFF;fontSize=12;" parent="1" vertex="1">
           <mxGeometry x="560" y="340" width="160" height="80" as="geometry" />
         </mxCell>
-        <mxCell id="SDYk8r2J29U1VIkxYxzF-52" value="" style="endArrow=none;dashed=1;html=1;strokeColor=#66B2FF;fontSize=12;fontColor=#00FFFF;exitX=1;exitY=0.5;" parent="1" source="SDYk8r2J29U1VIkxYxzF-48" edge="1">
+        <mxCell id="SDYk8r2J29U1VIkxYxzF-52" value="" style="endArrow=none;dashed=1;html=1;strokeColor=#66B2FF;fontSize=12;fontColor=#00FFFF;exitX=1;exitY=0.5;entryX=0;entryY=0.5;entryDx=0;entryDy=0;entryPerimeter=0;" parent="1" source="SDYk8r2J29U1VIkxYxzF-48" edge="1" target="SDYk8r2J29U1VIkxYxzF-12">
           <mxGeometry width="50" height="50" relative="1" as="geometry">
-            <mxPoint x="700" y="280" as="sourcePoint" />
-            <mxPoint x="590" y="730" as="targetPoint" />
+            <mxPoint x="700" y="535" as="sourcePoint" />
+            <mxPoint x="590" y="985" as="targetPoint" />
             <Array as="points" />
           </mxGeometry>
         </mxCell>
@@ -241,6 +241,24 @@
         </mxCell>
         <mxCell id="lAQB0KgurK22yrWvHnAk-14" value="奖励不发放" style="strokeWidth=2;html=1;shape=mxgraph.flowchart.terminator;whiteSpace=wrap;fillColor=#FFFFFF;fontSize=12;" vertex="1" parent="1">
           <mxGeometry x="1770" y="865" width="100" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="lAQB0KgurK22yrWvHnAk-22" value="否" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;exitPerimeter=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="lAQB0KgurK22yrWvHnAk-18" target="SDYk8r2J29U1VIkxYxzF-26">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="lAQB0KgurK22yrWvHnAk-18" value="用户条件是是否符合计划中的条件&lt;br&gt;" style="strokeWidth=2;html=1;shape=mxgraph.flowchart.decision;whiteSpace=wrap;fillColor=#FFFFFF;fontSize=12;" vertex="1" parent="1">
+          <mxGeometry x="763" y="585" width="160" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="lAQB0KgurK22yrWvHnAk-30" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;exitPerimeter=0;entryX=0.231;entryY=0.738;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="lAQB0KgurK22yrWvHnAk-27" target="lAQB0KgurK22yrWvHnAk-29">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="lAQB0KgurK22yrWvHnAk-27" value="对用户id取余，获取当前计划任务" style="strokeWidth=2;html=1;shape=mxgraph.flowchart.process;whiteSpace=wrap;fillColor=#FFFFFF;fontSize=12;" vertex="1" parent="1">
+          <mxGeometry x="590" y="710" width="100" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="lAQB0KgurK22yrWvHnAk-31" value="是" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;exitPerimeter=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="lAQB0KgurK22yrWvHnAk-29" target="SDYk8r2J29U1VIkxYxzF-12">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="lAQB0KgurK22yrWvHnAk-29" value="用户条件是是否符合计划中的条件&lt;br&gt;" style="strokeWidth=2;html=1;shape=mxgraph.flowchart.decision;whiteSpace=wrap;fillColor=#FFFFFF;fontSize=12;" vertex="1" parent="1">
+          <mxGeometry x="763" y="585" width="160" height="80" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
